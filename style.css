@@ -1,0 +1,220 @@
+body{
+    background: #1c1f22;
+    font-family: Segoe UI, Tahoma;
+
+}
+img{
+    display: block;
+}
+html {
+    direction: rtl;
+    unicode-bidi: isolate;
+    -webkit-locale: "ar";
+}
+a {
+    color: inherit;
+    text-decoration: none;
+    outline: none;
+    transition: color .15s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*! CSS Used from: https://twist.moe/_nuxt/bef30fc8a511c5fd88ef.css */
+a{color:inherit;text-decoration:none;outline:none;transition:color .15s;}
+a:hover{animation:pulse .38s infinite;}
+a:active,a:focus{color:#fff;}
+.icon{width:1em;height:1em;fill:#fff;}
+.icon.overshoot{width:1.3em;height:1.3em;}
+button{font:inherit;color:inherit;background-color:hsla(0,0%,100%,.05);border:1px solid rgba(255,255,255,0);padding:.5em 1em;border-radius:.25em;box-shadow:inset 0 0 0 0 rgba(255,255,255,.05);transition:box-shadow .3s,border .15s ease-in;outline:none;min-height:2em;overflow:hidden;display:inline-flex;justify-content:center;align-items:center;cursor:default;}
+button:hover{border:1px solid rgba(255,255,255,.075);animation:none;}
+button:active{box-shadow:inset 0 0 0 1em rgba(255,255,255,.05);}
+button:focus{box-shadow:inset 0 0 0 0 rgba(255,255,255,.05),0 0 0 .25em rgba(255,255,255,.05);}
+button:active:focus{box-shadow:inset 0 0 0 1em rgba(255,255,255,.05),0 0 0 .25em rgba(255,255,255,.05);}
+button:active{transition:none;background:hsla(0,0%,100%,.1);}
+button:disabled{color:hsla(0,0%,100%,.2);fill:hsla(0,0%,100%,.2);pointer-events:none;animation:none;}
+ul{list-style:none;}
+nav ul.interactive{border-top:1px solid hsla(0,0%,100%,.05);}
+ul.interactive li{display:flex;align-items:stretch;background-clip:padding-box;transition:background .6s;}
+ul.interactive li{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+nav ul.interactive li{margin:0;border-bottom:1px solid hsla(0,0%,100%,.05);}
+ul.interactive li:active{transition:none;background-color:hsla(0,0%,100%,.05);}
+ul.interactive li>*{padding:1em;}
+ul.interactive li>*{display:flex;align-items:center;flex:auto;}
+*{margin:0;padding:0;box-sizing:border-box;}
+.main-column>footer{width:100%;max-width:600px;margin:0 auto;flex:none;}
+@media (min-width:840px){
+.main-column>footer{margin-bottom:2rem;}
+}
+@media (max-width:839px){
+.main-column>*{max-width:none;}
+}
+.bolt[data-v-2e98af99]{fill:#e53232;}
+svg[data-v-2e98af99]{box-sizing:content-box;}
+.hearts[data-v-2e98af99]{width:0;height:0;padding:0;flex:none;}
+button.version[data-v-4d738af8]{font-size:12px;border-radius:15px;color:hsla(0,0%,100%,.48);}
+footer[data-v-601f161e]{margin-top:auto!important;}
+footer nav .version[data-v-601f161e]{margin-top:30px;display:flex;justify-content:center;}
+footer nav ul.interactive[data-v-601f161e]{margin-top:30px;}
+@media (min-width:840px){
+footer nav .version[data-v-601f161e]{margin-top:0;margin-left:auto;}
+footer nav[data-v-601f161e]{display:flex;align-items:center;}
+footer nav ul.interactive[data-v-601f161e]{margin-top:0;}
+footer>nav>ul[data-v-601f161e]{display:flex;flex-direction:row;flex-wrap:wrap;border:none!important;}
+footer>nav>ul>li[data-v-601f161e]{border:none!important;flex-shrink:1;background:transparent!important;align-items:center!important;}
+footer svg[data-v-601f161e]{box-sizing:content-box;}
+footer>nav>ul>li>[data-v-601f161e]{padding:0 16px;}
+footer>nav>ul>li[data-v-601f161e]:nth-child(n+2):before{content:"\B7";color:hsla(0,0%,100%,.5);}
+}
+/*! CSS Used keyframes */
+@keyframes pulse{50%{color:#fff;fill:#fff;}}
+
+
+
+
+
+/*! CSS Used from: https://twist.moe/_nuxt/bef30fc8a511c5fd88ef.css */
+a{color:inherit;text-decoration:none;outline:none;transition:color .15s;}
+a:hover{animation:pulse .38s infinite;}
+a:active,a:focus{color:#fff;}
+.icon{width:1em;height:1em;fill:#fff;}
+.icon.overshoot{width:1.3em;height:1.3em;}
+button{font:inherit;color:inherit;background-color:hsla(0,0%,100%,.05);border:1px solid rgba(255,255,255,0);padding:.5em 1em;border-radius:.25em;box-shadow:inset 0 0 0 0 rgba(255,255,255,.05);transition:box-shadow .3s,border .15s ease-in;outline:none;min-height:2em;overflow:hidden;display:inline-flex;justify-content:center;align-items:center;cursor:default;}
+button:hover{border:1px solid rgba(255,255,255,.075);animation:none;}
+button:active{box-shadow:inset 0 0 0 1em rgba(255,255,255,.05);}
+button:focus{box-shadow:inset 0 0 0 0 rgba(255,255,255,.05),0 0 0 .25em rgba(255,255,255,.05);}
+button:active:focus{box-shadow:inset 0 0 0 1em rgba(255,255,255,.05),0 0 0 .25em rgba(255,255,255,.05);}
+button:active{transition:none;background:hsla(0,0%,100%,.1);}
+button:disabled{color:hsla(0,0%,100%,.2);fill:hsla(0,0%,100%,.2);pointer-events:none;animation:none;}
+ul{list-style:none;}
+nav ul.interactive{border-top:1px solid hsla(0,0%,100%,.05);}
+ul.interactive li{display:flex;align-items:stretch;background-clip:padding-box;transition:background .6s;}
+ul.interactive li{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+nav ul.interactive li{margin:0;border-bottom:1px solid hsla(0,0%,100%,.05);}
+ul.interactive li:active{transition:none;background-color:hsla(0,0%,100%,.05);}
+ul.interactive li>*{padding:1em;}
+ul.interactive li>*{display:flex;align-items:center;flex:auto;}
+*{margin:0;padding:0;box-sizing:border-box;}
+.bolt[data-v-2e98af99]{fill:#e53232;}
+svg[data-v-2e98af99]{box-sizing:content-box;}
+.hearts[data-v-2e98af99]{width:0;height:0;padding:0;flex:none;}
+button.version[data-v-4d738af8]{font-size:12px;border-radius:15px;color:hsla(0,0%,100%,.48);}
+footer nav .version[data-v-601f161e]{margin-top:30px;display:flex;justify-content:center;}
+footer nav ul.interactive[data-v-601f161e]{margin-top:30px;}
+@media (min-width:840px){
+footer nav .version[data-v-601f161e]{margin-top:0;margin-left:auto;}
+footer nav[data-v-601f161e]{display:flex;align-items:center;}
+footer nav ul.interactive[data-v-601f161e]{margin-top:0;}
+footer>nav>ul[data-v-601f161e]{display:flex;flex-direction:row;flex-wrap:wrap;border:none!important;}
+footer>nav>ul>li[data-v-601f161e]{border:none!important;flex-shrink:1;background:transparent!important;align-items:center!important;}
+footer svg[data-v-601f161e]{box-sizing:content-box;}
+footer>nav>ul>li>[data-v-601f161e]{padding:0 16px;}
+footer>nav>ul>li[data-v-601f161e]:nth-child(n+2):before{content:"\B7";color:hsla(0,0%,100%,.5);}
+}
+/*! CSS Used keyframes */
+@keyframes pulse{50%{color:#fff;fill:#fff;}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*! CSS Used from: https://twist.moe/_nuxt/bef30fc8a511c5fd88ef.css */
+.row-from-right>*{margin-left:8px;}
+button{font:inherit;color:inherit;background-color:hsla(0,0%,100%,.05);border:1px solid rgba(255,255,255,0);padding:.5em 1em;border-radius:.25em;box-shadow:inset 0 0 0 0 rgba(255,255,255,.05);transition:box-shadow .3s,border .15s ease-in;outline:none;min-height:2em;overflow:hidden;display:inline-flex;justify-content:center;align-items:center;cursor:default;}
+button:hover{border:1px solid rgba(255,255,255,.075);animation:none;}
+button:active{box-shadow:inset 0 0 0 1em rgba(255,255,255,.05);}
+button:focus{box-shadow:inset 0 0 0 0 rgba(255,255,255,.05),0 0 0 .25em rgba(255,255,255,.05);}
+button:active:focus{box-shadow:inset 0 0 0 1em rgba(255,255,255,.05),0 0 0 .25em rgba(255,255,255,.05);}
+button:active{transition:none;background:hsla(0,0%,100%,.1);}
+button:disabled{color:hsla(0,0%,100%,.2);fill:hsla(0,0%,100%,.2);pointer-events:none;animation:none;}
+*{margin:0;padding:0;box-sizing:border-box;}
+/*! CSS Used from: https://twist.moe/_nuxt/8303e1b70d81541ea8f5.css */
+.donations button[data-v-3009d284]{color:hsla(0,0%,100%,.8);}
+/*! CSS Used from: https://twist.moe/_nuxt/f9b48ba43054e3a9e7cd.css */
+.donations button[data-v-3009d284]{color:hsla(0,0%,100%,.8);}
+/*! CSS Used from: https://twist.moe/_nuxt/de92ea7c9ae62b18bc4d.css */
+.donations button[data-v-3009d284]{color:hsla(0,0%,100%,.8);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*! CSS Used from: https://twist.moe/_nuxt/bef30fc8a511c5fd88ef.css */
+a{color:inherit;text-decoration:none;outline:none;transition:color .15s;}
+a:hover{animation:pulse .38s infinite;}
+a:active,a:focus{color:#fff;}
+.icon{width:1em;height:1em;fill:#fff;}
+button{font:inherit;color:inherit;background-color:hsla(0,0%,100%,.05);border:1px solid rgba(255,255,255,0);padding:.5em 1em;border-radius:.25em;box-shadow:inset 0 0 0 0 rgba(255,255,255,.05);transition:box-shadow .3s,border .15s ease-in;outline:none;min-height:2em;overflow:hidden;display:inline-flex;justify-content:center;align-items:center;cursor:default;}
+button:hover{border:1px solid rgba(255,255,255,.075);animation:none;}
+button:active{box-shadow:inset 0 0 0 1em rgba(255,255,255,.05);}
+button:focus{box-shadow:inset 0 0 0 0 rgba(255,255,255,.05),0 0 0 .25em rgba(255,255,255,.05);}
+button:active:focus{box-shadow:inset 0 0 0 1em rgba(255,255,255,.05),0 0 0 .25em rgba(255,255,255,.05);}
+button>:nth-child(n+2){margin-left:.5em;}
+button>svg{flex:none;}
+button>span{overflow:hidden;text-overflow:ellipsis;line-height:1.5;}
+button:active{transition:none;background:hsla(0,0%,100%,.1);}
+button:disabled{color:hsla(0,0%,100%,.2);fill:hsla(0,0%,100%,.2);pointer-events:none;animation:none;}
+*{margin:0;padding:0;box-sizing:border-box;}
+.main-column>header{width:100%;max-width:600px;margin:0 auto;flex:none;}
+@media (max-width:839px){
+.main-column>*{max-width:none;}
+}
+.main-header{padding-top:2rem;display:flex;justify-content:center;align-items:center;}
+.main-header .logo svg{display:block;height:32px;fill:hsla(0,0%,100%,.8);}
+@media (max-width:839px){
+.main-header .logo{padding:.5em 1em;}
+.main-header .logo svg{display:block;height:1em;width:1.6em;}
+.main-header{position:fixed;left:.5rem;right:.5rem;bottom:0;border-top:1px solid hsla(0,0%,100%,.05);background:#1c1f22;justify-content:space-between;padding:.5rem 0;box-shadow:0 0 3rem 1em #1c1f22;z-index:3;width:auto!important;margin:0;}
+}
+@media (min-width:840px){
+.main-header .logo svg :last-child{fill:#e53232;}
+}
+.toggles-desktop{position:fixed;right:calc(2em + 360px);transition:right .6s;display:flex;}
+.toggles-desktop:not(.sidebar-visible){right:2em;}
+.toggles-desktop button:first-of-type{margin-right:.5em;}
+.toggles-desktop button{height:2.5em;padding:0 .7em;}
+.toggles-desktop button span{margin-right:.5em;}
+.toggles-desktop button svg{width:24px;height:24px;fill:#fff;}
+.toggles-desktop button.toggle-settings svg{width:1em;height:1em;}
+.main-header .toggles button{margin-left:3px;}
+.main-header .toggles button:first-of-type{margin:0;}
+@media (min-width:840px){
+.main-header .toggles{display:none;}
+}
+@media (max-width:839px){
+.toggles-desktop{display:none;}
+}
+/*! CSS Used keyframes */
+@keyframes pulse{50%{color:#fff;fill:#fff;}}
